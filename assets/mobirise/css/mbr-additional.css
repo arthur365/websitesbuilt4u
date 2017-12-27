@@ -129,7 +129,7 @@ body {
   border-radius: 3px;
 }
 .bg-primary {
-  background-color: #c71adc !important;
+  background-color: #2651f0 !important;
 }
 .bg-success {
   background-color: #f7ed4a !important;
@@ -145,8 +145,8 @@ body {
 }
 .btn-primary,
 .btn-primary:active {
-  background-color: #c71adc;
-  border-color: #c71adc;
+  background-color: #2651f0;
+  border-color: #2651f0;
   color: #ffffff;
 }
 .btn-primary:hover,
@@ -154,14 +154,14 @@ body {
 .btn-primary.focus,
 .btn-primary.active {
   color: #ffffff;
-  background-color: #891298;
-  border-color: #891298;
+  background-color: #0d32bc;
+  border-color: #0d32bc;
 }
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff !important;
-  background-color: #891298 !important;
-  border-color: #891298 !important;
+  background-color: #0d32bc !important;
+  border-color: #0d32bc !important;
 }
 .btn-secondary,
 .btn-secondary:active {
@@ -309,22 +309,22 @@ body {
 .btn-primary-outline,
 .btn-primary-outline:active {
   background: none;
-  border-color: #740f81;
-  color: #740f81;
+  border-color: #0b2ca5;
+  color: #0b2ca5;
 }
 .btn-primary-outline:hover,
 .btn-primary-outline:focus,
 .btn-primary-outline.focus,
 .btn-primary-outline.active {
   color: #ffffff;
-  background-color: #c71adc;
-  border-color: #c71adc;
+  background-color: #2651f0;
+  border-color: #2651f0;
 }
 .btn-primary-outline.disabled,
 .btn-primary-outline:disabled {
   color: #ffffff !important;
-  background-color: #c71adc !important;
-  border-color: #c71adc !important;
+  background-color: #2651f0 !important;
+  border-color: #2651f0 !important;
 }
 .btn-secondary-outline,
 .btn-secondary-outline:active {
@@ -461,7 +461,7 @@ body {
   border-color: #ffffff;
 }
 .text-primary {
-  color: #c71adc !important;
+  color: #2651f0 !important;
 }
 .text-secondary {
   color: #ff3366 !important;
@@ -486,7 +486,7 @@ body {
 }
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #740f81 !important;
+  color: #0b2ca5 !important;
 }
 a.text-secondary:hover,
 a.text-secondary:focus {
@@ -538,8 +538,8 @@ a.text-black:focus {
   border-radius: 100px !important;
 }
 .mbr-gallery-filter li.active .btn {
-  background-color: #c71adc;
-  border-color: #c71adc;
+  background-color: #2651f0;
+  border-color: #2651f0;
   color: #ffffff;
 }
 .mbr-gallery-filter li.active .btn:focus {
@@ -556,11 +556,11 @@ a.text-black:focus {
 }
 a,
 a:hover {
-  color: #c71adc;
+  color: #2651f0;
 }
 .mbr-plan-header.bg-primary .mbr-plan-subtitle,
 .mbr-plan-header.bg-primary .mbr-plan-price-desc {
-  color: #f4c9f9;
+  color: #e5eafd;
 }
 .mbr-plan-header.bg-success .mbr-plan-subtitle,
 .mbr-plan-header.bg-success .mbr-plan-price-desc {
@@ -678,7 +678,7 @@ blockquote {
   padding: 10px 0 10px 20px;
   font-size: 1.09rem;
   position: relative;
-  border-color: #c71adc;
+  border-color: #2651f0;
   border-width: 3px;
 }
 ul,
@@ -766,7 +766,7 @@ pre {
   text-align: center;
   position: relative;
   border: 2px solid #c0a375;
-  border-color: #c71adc;
+  border-color: #2651f0;
   color: #232323;
   cursor: pointer;
 }
@@ -777,7 +777,7 @@ pre {
 }
 .btn-social:hover {
   color: #fff;
-  background: #c71adc;
+  background: #2651f0;
 }
 .btn-social + .btn {
   margin-left: .1rem;
@@ -785,11 +785,11 @@ pre {
 /* Footer */
 .mbr-footer-content li::before,
 .mbr-footer .mbr-contacts li::before {
-  background: #c71adc;
+  background: #2651f0;
 }
 .mbr-footer-content li a:hover,
 .mbr-footer .mbr-contacts li a:hover {
-  color: #c71adc;
+  color: #2651f0;
 }
 .footer3 input[type="email"],
 .footer4 input[type="email"] {
@@ -1892,6 +1892,10 @@ body {
 .cid-qxGv9lBIuh .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-qxGv9lBIuh .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-qxGv9lBIuh .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-qxGv9lBIuh .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qxGv9lBIuh .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1985,6 +1989,10 @@ body {
   .cid-qxGv9lBIuh .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qxGv9lBIuh .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-qxGv9lBIuh .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-qxGv9lBIuh .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-qxGv9lBIuh .navbar-collapse.collapsing .navbar-buttons,
   .cid-qxGv9lBIuh .navbar-collapse.show .navbar-buttons {
