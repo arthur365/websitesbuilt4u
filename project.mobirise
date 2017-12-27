@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Flinshire websites built for you",
+    "name": "websites built 4u",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -39,7 +39,7 @@
     },
     "versionFirst": "4.2.3",
     "uniqCompNum": 31,
-    "versionPublish": "4.2.3",
+    "versionPublish": "4.5.2",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -457,12 +457,16 @@
           "_anchor": "gallery1-d",
           "_protectedParams": [
             "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
             "gallery"
           ],
           "_global": false,
           "_once": false,
           "_params": {
             "text_all": "All",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
                 "tags": "Awesome",
