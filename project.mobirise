@@ -295,7 +295,7 @@
             },
             "P": {
               "text-align": "center",
-              "color": "#e4d295"
+              "color": "#cccccc"
             },
             "B": {
               "color": "#efefef"
@@ -327,7 +327,7 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-2",
-                "customStyle2": "display-5",
+                "customStyle2": "display-7",
                 "customStyle3": "display-7",
                 "title": "FLINTSHIRE QUALITY SMALL BUSINESS WEBSITE DESIGN BUILT 4.U&nbsp;",
                 "overlay": true,
@@ -392,14 +392,17 @@
               "color": "#5b686b"
             },
             "H2": {
-              "color": "#e4d295"
+              "color": "#efefef"
             },
             ".mbr-section-subtitle B": {
               "color": "#efe984"
+            },
+            "SPAN": {
+              "color": "#ffffff"
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/animatedicons.gif\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=8gD_9WPPFb4\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\"><span style=\"font-weight: normal;\">I.T Small Business Quality premier Website's Built 4 U on line anywere in the U.K Make this &nbsp;your business website.</span>&nbsp;<br><br><a href=\"https://form.jotformeu.com/73063675454360\" target=\"_blank\" class=\"text-warning\"><b>Contact us</b></a><br><span style=\"font-weight: normal;\"><i>What ever your business.</i></span><br></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mobirise.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/animatedicons.gif\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=8gD_9WPPFb4\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#073b4c\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">I.T Small Business Quality premier Website's Built 4 U on line anywere in the U.K Make this &nbsp;your business website.&nbsp;<br><br><a href=\"https://form.jotformeu.com/73063675454360\" target=\"_blank\" class=\"text-warning\"><b>Contact us</b></a><br><span style=\"font-weight: normal;\"><i>What ever your business.</i></span><br></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline></p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mobirise.com\"><span class=\"mbri-home mbr-iconfont mbr-iconfont-btn\"></span>HOME</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qxJjWwIS2u",
           "_anchor": "content5-7",
           "_protectedParams": [],
@@ -449,10 +452,13 @@
               "background": "linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important",
               "-webkit-transition": "0.2s background ease-in-out",
               "transition": "0.2s background ease-in-out"
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center"
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "qAiLMYYqok",
           "_anchor": "gallery1-d",
           "_protectedParams": [
@@ -475,10 +481,10 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/office-936x590.png",
                 "thumb": "@PROJECT_PATH@/assets/images/office-936x590-800x504.png",
-                "alt": "",
+                "alt": "CAPRICORN CAR SALES",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
+                "caption": "Capricorn Car Sales",
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -489,7 +495,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/hir-shop-640x426-640x426.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "&nbsp;caption here",
                 "active": false
               },
               {
@@ -501,7 +507,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/tak-away-640x480-640x480.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "caption here",
                 "active": false
               },
               {
@@ -513,7 +519,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-2-1618x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "caption here",
                 "active": false
               },
               {
@@ -525,7 +531,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/cars-640x392-640x392.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "caption here",
                 "active": false
               },
               {
@@ -537,8 +543,8 @@
                 "thumb": "@PROJECT_PATH@/assets/images/mbr-15-1620x1080-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": true
+                "caption": "caption here",
+                "active": false
               },
               {
                 "tags": "Responsive",
@@ -549,7 +555,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/th80rqfj2l-640x426-640x426.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "COSTAS",
                 "active": false
               },
               {
@@ -557,11 +563,11 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-1920x1080.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-1920x1080-800x450.jpg",
-                "alt": "",
+                "image": "@PROJECT_PATH@/assets/images/gaden-city-chip-shop-868x374.png",
+                "thumb": "@PROJECT_PATH@/assets/images/gaden-city-chip-shop-868x374-800x344.png",
+                "alt": "GARDEN CITY TAKE AWAY",
                 "customStyle1": "display-7",
-                "caption": "Type caption here",
+                "caption": "<a href=\"https://arthur365.github.io/GardenCityKebabHouse/#next\" target=\"_blank\" class=\"text-success\">Garden City Kebab Pizza House</a> ",
                 "active": false
               }
             ]
