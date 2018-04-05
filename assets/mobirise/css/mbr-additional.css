@@ -2620,7 +2620,7 @@ body {
   margin-bottom: 2rem;
 }
 .cid-qJrXUbL9s4 .mbr-section-subtitle {
-  color: #232323;
+  color: #ffffff;
 }
 .cid-qJrXUbL9s4 a:not([href]):not([tabindex]) {
   color: #fff;
@@ -2637,6 +2637,9 @@ body {
 .cid-qJrXUbL9s4 .input-group-btn {
   display: block;
   text-align: center;
+}
+.cid-qJrXUbL9s4 B {
+  color: #7f1933;
 }
 .cid-qJrD4aPLmv .navbar {
   padding: .5rem 0;
